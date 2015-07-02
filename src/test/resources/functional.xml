@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="firstTestSuite" verbose="1" >
+    <test name="SmokeTest">
+        <classes>
+            <class name="test_classes.selenium.SignUpTests"/>
+            <class name="test_classes.selenium.LoginTests"/>
+        </classes>
+    </test>
+</suite>
